@@ -52,3 +52,19 @@ window.alert (`O saldo da sua conta é R$ ${saldodaconta}`)
 var nom = prompt('Qual o seu nome?')
 
 alert ( `Bem-vindo ${nom}`)
+
+//Exercicio das medias ultilizando o looop que abriu a minha cabeça
+
+let qtdNumeros = prompt('Digite a quantidade de números para o cálculo da média:');
+let soma = 0;
+let contador = qtdNumeros;
+
+while(contador > 0){
+    let numero = parseInt(prompt('Digite o numero:'));
+    soma += numero;
+    contador--
+}
+
+let media = soma / qtdNumeros;
+
+console.log(media);
